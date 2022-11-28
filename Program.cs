@@ -59,9 +59,9 @@ namespace StackUsingSingleLinkList
                 }
             }
         }
-    }
-    internal class Program
-    {
+    
+    
+    
         static void Main(string[] args)
         {
             Stack s = new Stack();
