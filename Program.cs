@@ -12,7 +12,16 @@ namespace StackUsingSingleLinkList
         public node next;
         public node(int i, node n)
         {
-
+            info = i;
+            next = n;
+        }
+    }
+    class Stack
+    {
+        node top;
+        public Stack()
+        {
+            top = null;
         }
     }
     internal class Program
