@@ -17,6 +17,7 @@ namespace StackUsingSingleLinkList
         }
     }
     class Stack
+        //make stack class
     {
         node top;
         public Stack()
@@ -96,6 +97,7 @@ namespace StackUsingSingleLinkList
                         return;
                     default:
                         Console.WriteLine("\nInvalid choice");
+                        break ;
                 }
             }
         }
